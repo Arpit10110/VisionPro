@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 10vh;
+    align-items: center;
+    /* background-color: #ffffff0f; */
+}
+
+.logo h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.7rem;
+}
+.NavIcon .appleIcon{
+    font-size: 2rem;
+}
+.navlinks{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
