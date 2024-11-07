@@ -35,3 +35,14 @@ nav{
 .navlinks a:hover{
     text-decoration: underline;
 }
+
+
+@media only  screen and (width<=600px) {
+    nav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navlinks {
+        gap: 1rem;
+    }
+}

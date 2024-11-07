@@ -87,3 +87,27 @@
 .sub3sec3img img{
     width: 100%;
 }
+
+@media only  screen and (width<=600px) {
+    .sub1sec3cont h2 {
+        font-size: 2.5rem;
+    }
+    .sub1sec3img {
+        width: 90%;
+    }
+    .sub2sec3cont h2 {
+        font-size: 2.8rem;
+    }
+    .sub2sec3cont p {
+        width: 90%;
+    }
+    .sub2sec3img {
+        width: 90%;
+    }
+    .sub3sec3cont p {
+        width: 90%;
+    }
+    .sub3sec3img {
+        width: 90%;
+    }
+}

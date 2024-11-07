@@ -22,3 +22,9 @@ body{
 ::-webkit-scrollbar-thumb {
     background: transparent;
 }
+
+@media only  screen and (width<=600px) {
+    html{
+     font-size: 55%;
+    }
+   }
